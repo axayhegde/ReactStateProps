@@ -61,4 +61,4 @@ window.API = () => {
     })
 
 };
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App userDetails={this.data}/>, document.getElementById('root'));

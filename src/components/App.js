@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Me from "./Me"
-import LifeHooker from '../learn/LifeHooker';
 import Wrapper from './Wrapper';
 
 class App extends Component {
@@ -9,7 +8,7 @@ class App extends Component {
         super(props);
 
         this.state = {
-            data: {}
+            data: {props}
         };
     }
 
